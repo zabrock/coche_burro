@@ -1,0 +1,5 @@
+<launch>
+<include file="$(find i2cpwm_board)/launch/i2cpwm_node.launch"/>
+<node pkg="burro_llc" name="servo_control_node" type="servo_control" output="screen" />
+
+</launch>
